@@ -10,20 +10,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="page-title">
-            Aluraflix
-        </h1>
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
-            alt="">
-    </div>
+        <div class="container">
+            <h1 class="page-title">
+                Aluraflix
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+                class="page-logo" alt="">
+        </div>
 
-    <label for="">ADICIONE FILMES AO NOSSO CATÁLOGO</label>
-    <input type="url" name="Filme" id="inserirFilme">
-    
-    <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a>
+        <label for="">ADICIONE FILMES AO NOSSO CATÁLOGO:</label>
+        <input type="url" name="Filme" id="inserirFilme" placeholder="Url..." onKeyPress="if (event.keyCode == 13) {Adicionar();}">
+        <button type="submit" onclick="Adicionar()">Enviar</button>
+        <section id="listagem"></section>
+
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
     <script src="script.js"></script>
 </body>
 
