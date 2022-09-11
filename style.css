@@ -27,13 +27,12 @@ body {
 
 section{
     margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: inline-block;
     width: 98vw;
 }
 
 section img{
+    margin: 10px 30px;
     max-height: 300px;
     max-width: 200px;
     border: 2px solid rgb(171, 0, 6);
